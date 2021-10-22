@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400&display=swap");
+* {
+  font-family: "roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav {
+  max-width: 1920px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: auto 1fr auto;
+  background-color: #D8BA88;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  color: black;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.navnav__color {
+  background-color: #D8BA88;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  width: 50%;
+  text-decoration: none;
+}
+
+.nav__img {
+  height: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* body */
+.tamanoCarousel {
+  height: 85vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.divDra {
+  font-family: "Roboto";
+  -webkit-text-decoration: black;
+          text-decoration: black;
+}
+
+.divDra__h2 {
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #D8BA88;
+}
+
+/* footer */
+/*# sourceMappingURL=main.css.map */

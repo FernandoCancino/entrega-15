@@ -1,0 +1,15 @@
+.tamanoCarousel {
+    height: 85vh;
+    object-fit: cover;
+}
+
+
+.divDra {
+    font-family: "Roboto";
+    text-decoration: $negro;
+    &__h2 {
+        text-decoration-style: solid;
+        text-decoration-line: underline;    
+        color: $marron;
+    }
+}

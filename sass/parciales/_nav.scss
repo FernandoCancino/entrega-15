@@ -1,0 +1,26 @@
+.nav {
+    max-width: 1920px;
+    margin: auto;
+    display: grid;
+    grid-auto-rows: auto 1fr auto;
+    background-color: $marron;
+    display: flex;
+    padding: 1rem;
+    color: $negro;
+    justify-content: space-between;
+    list-style: none;
+
+    &nav__color {
+        background-color: $marron;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        width: 50%;
+        text-decoration: none;
+    }
+
+    &__img {
+        height: 7vh;
+        display: flex;
+    }
+}

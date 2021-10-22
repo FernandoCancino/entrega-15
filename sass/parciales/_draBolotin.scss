@@ -1,0 +1,18 @@
+.img-quienes {
+    display: black;
+    padding: 5rem;
+    max-width: 100%;
+}
+
+.presentacion {
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: right;
+    width: 60%;
+&__titulos {
+    margin: 1rem;
+    padding: 3rem;
+    width: 40%;
+    top: 50%;
+}
+}
