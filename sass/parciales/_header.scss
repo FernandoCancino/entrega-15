@@ -1,3 +1,7 @@
+header{
+    padding: 10rem;
+}
+
 .nav {
     max-width: 1920px;
     margin: auto;
@@ -9,7 +13,7 @@
     color: $negro;
     justify-content: space-between;
     list-style: none;
-
+    
     &nav__color {
         background-color: $marron;
         display: flex;
