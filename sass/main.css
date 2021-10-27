@@ -46,6 +46,15 @@
   display: flex;
 }
 
+hr {
+  box-shadow: 1px 15px 14px 1px rgba(13, 12, 12, 0.78);
+  -webkit-box-shadow: 1px 15px 14px 1px rgba(13, 12, 12, 0.78);
+  -moz-box-shadow: 1px 15px 14px 1px rgba(13, 12, 12, 0.78);
+  height: 0.5rem !important;
+  opacity: 1 !important;
+  margin: 0 !important;
+}
+
 .tamanoCarousel {
   height: 85vh;
   -o-object-fit: cover;
@@ -89,5 +98,21 @@
       -ms-flex-pack: right;
           justify-content: right;
   width: 60%;
+}
+
+.presentacion__titulos {
+  margin: 1rem;
+  padding: 3rem;
+  width: 40%;
+  top: 50%;
+}
+
+.card-img-filter {
+  height: 450px;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10%;
 }
 /*# sourceMappingURL=main.css.map */

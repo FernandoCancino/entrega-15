@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Prodcutos cosméticos para el cuidado de la piel ">
-    <meta name="keywords"  content="HTML, tienda, cuidado personal, belleza, cosmética, crema corporal">
+    <meta name="keywords" content="HTML, tienda, cuidado personal, belleza, cosmética, crema corporal">
     <title>TIENDA</title>
     <script src="https://kit.fontawesome.com/7d4193cf05.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="../sass/main.css">
 </head>
 
@@ -45,7 +47,7 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light nav">
-            <div class="container-fluid nav__color">
+            <div class="container-fluid nav__color" data-aos="zoom-in">
                 <a class="navbar-brand nav__img" href="../index.html"><img src="../multimedia/logo_MB-02-02.png"
                         alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -75,111 +77,183 @@
         </nav>
     </header>
 
+    <!--fin del header-->
 
     <main>
-        <h1 class="titulo">TIENDA OFICIAL</h1>
+        <h1 class="titulo text-center p-4">TIENDA OFICIAL</h1>
         <section class="fondo-tienda container-fuid">
             <div class="row">
                 <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/cremaBerryTense.png" alt="Crema Berry Tense">
-                    <p class="descripcion">Mejora la tonicidad, firmeza y elasticidad de la piel. <br> Ideal para piel
-                        envejecida y deshidratada.</p>
-                    <p class="precio">AR$1500</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/cremaBerryTense.png" alt="Crema Berry Tense"
+                            class="card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Mejora la tonicidad, firmeza y elasticidad de la piel. <br> Ideal
+                                para piel
+                                envejecida y deshidratada.</p>
+                            <p class="precio">AR$1500</p>
+                        </div>
+                    </div>
                 </article>
                 <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/cremaCrystalSkin.png" alt="crema Crystal Skin">
-                    <p class="descripcion">Ideal para pacientes que se colocan Botox y quieren mantener el tratamiento
-                    </p>
-                    <p class="precio">AR$1800</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/cremaCrystalSkin.png" alt="crema Crystal Skin"
+                            class="card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Ideal para pacientes que se colocan Botox quieren mantener el
+                                tratamiento
+                            </p>
+                            <p class="precio">AR$1800</p>
+                        </div>
+                    </div>
                 </article>
                 <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/cremaPlusVital.png" alt="Crema Plus Vital">
-                    <p class="descripcion">Contiene Ácido Hialurónico, elemento clave para hidratar <br> Coenzima Q10,
-                        que
-                        previene la oxidación de lípidos en la piel <br> Resveratrol, que estimula la producción de
-                        colágeno
-                        y elastina y Vitamina E, con gran función antioxidante.</p>
-                    <p class="precio">AR$1200</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/cremaPlusVital.png" alt="Crema Plus Vital"
+                            class="card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Contiene Ácido Hialurónico, elemento clave para hidratar Coenzima
+                                Q10,
+                                que previene la oxidación de lípidos en la piel Resveratrol, que estimula la producción
+                                de
+                                colágeno y elastina y Vitamina E, con gran función antioxidante.</p>
+                            <p class="precio">AR$1200</p>
+                        </div>
+                    </div>
                 </article>
                 <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/cremaMandelic.png" alt="Crema Mandelic">
-                    <p class="descripcion">Crema con Ácido Mandélico y Ácido Kójico, para tratar manchas de la piel de
-                        la
-                        cara y el escote. <br> Ideal complementar con limpiador con Ácido Mandélico.</p>
-                    <p class="precio">AR$1800</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/cremaMandelic.png" alt="Crema Mandelic"
+                            class="card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Crema con Ácido Mandélico y Ácido Kójico, para tratar manchas de la
+                                piel de
+                                la
+                                cara y el escote. Ideal complementar con limpiador con Ácido Mandélico.</p>
+                            <p class="precio">AR$1800</p>
+                        </div>
+                    </div>
                 </article>
                 <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/gelVitaminaC.png" alt="Gel Vitamina C">
-                    <p class="descripcion">Un producto elaborado para aportar a la piel la hidratación necesaria durante
-                        el
-                        día y la noche <br> Gracias al aporte de ácido hialurónico, teniendo presente además el aporte
-                        de
-                        vitaminas antiage. <br> Su textura en gel lo hace ideal para pieles mixtas/grasas. </p>
-                    <p class="precio">AR$1200</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/gelVitaminaC.png" alt="Gel Vitamina C"
+                            class="card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Un producto elaborado para aportar a la piel la hidratación necesaria
+                                durante
+                                el
+                                día y la noche Gracias al aporte de ácido hialurónico, teniendo presente además el
+                                aporte
+                                de
+                                vitaminas antiage.Su textura en gel lo hace ideal para pieles mixtas/grasas. </p>
+                            <p class="precio">AR$1200</p>
+                        </div>
+                    </div>
                 </article>
                 <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/gelVitaminaAyE.png" alt="Gel Vitamina A y E">
-                    <p class="descripcion">Los productos cosméticos con vitamina A mejoran la elasticidad de las pieles
-                        prematuramente envejecidas, aportándoles una apariencia más suave, firme y uniforme. <br> La
-                        vitamina E es uno de los más comunes y potentes antioxidantes. <br> En productos cosméticos,
-                        ayuda a
-                        aumentar el flujo sanguíneo ayudando a mejorar la alimentación del tejido, mejorando así, la
-                        elasticidad de la piel y ayudando a reducir las arrugas. </p>
-                    <p class="precio">AR$1200</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/gelVitaminaAyE.png" alt="Gel Vitamina A y E"
+                            class="card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Los productos cosméticos con vitamina A mejoran la elasticidad de las
+                                pieles
+                                prematuramente envejecidas, aportándoles una apariencia más suave, firme y uniforme.
+                                <br> La
+                                vitamina E es uno de los más comunes y potentes antioxidantes. <br> En productos
+                                cosméticos,
+                                ayuda a
+                                aumentar el flujo sanguíneo ayudando a mejorar la alimentación del tejido, mejorando
+                                así, la
+                                elasticidad de la piel y ayudando a reducir las arrugas. </p>
+                            <p class="precio">AR$1200</p>
+                        </div>
+                    </div>
                 </article>
                 <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/labialHidratanteVoluminizador.png"
-                        alt="Labial Hidratante Voluminizador">
-                    <p class="descripcion">Ideal posterior a relleno de labios con Ácido Hialurónico o para los que no
-                        se
-                        animan al tratamiento inyectable </p>
-                    <p class="precio">AR$800</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/labialHidratanteVoluminizador.png"
+                            alt="Labial Hidratante Voluminizador" class="card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Ideal posterior a relleno de labios con Ácido Hialurónico o para los
+                                que no se animan al tratamiento inyectable </p>
+                            <p class="precio">AR$800</p>
+                        </div>
+                    </div>
                 </article>
                 <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/limpiadorCleanSkin.png" alt="Limpiador Clean Skin">
-                    <p class="descripcion">Producto de limpieza apto para todo tipo de pieles</p>
-                    <p class="precio">AR$1200</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/limpiadorCleanSkin.png" alt="Limpiador Clean Skin"
+                            class="card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Producto de limpieza apto para todo tipo de pieles</p>
+                            <p class="precio">AR$1200</p>
+                        </div>
+                    </div>
                 </article>
                 <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/serumPg.png" alt="Serum Pg">
-                    <p class="descripcion">Protector genómico</p>
-                    <p class="precio">AR$1500</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/serumPg.png" alt="Serum Pg" class="card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Protector genómico</p>
+                            <p class="precio">AR$1500</p>
+                        </div>
+                    </div>
                 </article>
                 <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/serumRadianceGelDescongestivo.png" alt="Serum Radiance Gel Descongestivo">
-                    <p class="descripcion">Actúa sobre los tres principales signos de la fatiga y el envejecimiento
-                        alrededor de los ojos gracias a la mejoría de la microcirculación y el refuerzo de la matriz
-                        extracelular. <br> Rejuvenece esa delicada piel y mejora el aspecto del contorno de los ojos.
-                    </p>
-                    <p class="precio">AR$1500</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/serumRadianceGelDescongestivo.png"
+                            alt="Serum Radiance Gel Descongestivo" class="card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Actúa sobre los tres principales signos de la fatiga y el
+                                envejecimiento
+                                alrededor de los ojos gracias a la mejoría de la microcirculación y el refuerzo de la
+                                matriz
+                                extracelular. <br> Rejuvenece esa delicada piel y mejora el aspecto del contorno de los
+                                ojos.
+                            </p>
+                            <p class="text-center">AR$1500</p>
+                        </div>
+                    </div>
                 </article>
                 <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/serumRoSensitive.png" alt="Serum Ro Sensitive">
-                    <p class="descripcion">Ideal para pieces que tienden al enrojecimiento. <br> Serum descongestivo de
-                        uso
-                        diario. Ideal complementar con limpiador Clean Skin para pieles sensibles.</p>
-                    <p class="precio">AR$1000</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/serumRoSensitive.png" alt="Serum Ro Sensitive"
+                            class=" card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Ideal para pieces que tienden al enrojecimiento. <br> Serum
+                                descongestivo de
+                                uso
+                                diario. Ideal complementar con limpiador Clean Skin para pieles sensibles.</p>
+                            <p class="precio">AR$1000</p>
+                        </div>
+                    </div>
                 </article>
-                <article class="col-md-4 p-3 espacio-tienda">
-                    <img src="../multimedia/Tienda/setPielesSensibles.png" alt="Set Pieles Sensibles">
-                    <p class="descripcion">Limpiador Clean Skin para todo tipo de pieles <br> formulada especialmente
-                        para
-                        pieles sensibles y serum descongestivo Rosensitive para pieles que tienden al enrojecimiento y
-                        la
-                        irritación</p>
-                    <p class="precio">AR$2600</p>
-                    <button class="boton">AGREGAR<i class="fas fa-cart-plus"></i></button>
+                <article class="col-md-4 p-3 ">
+                    <div class="card" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
+                        <img src="../multimedia/Tienda/setPielesSensibles.png" alt="Set Pieles Sensibles"
+                            class="card-img card-img-filter">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end color-descripcion">
+                            <p class="descripcion">Limpiador Clean Skin para todo tipo de pieles formulada especialmente
+                                para
+                                pieles sensibles y serum descongestivo Rosensitive para pieles que tienden al
+                                enrojecimiento y
+                                la
+                                irritación</p>
+                            <p class="precio">AR$2600</p>
+                        </div>
+                    </div>
                 </article>
             </div>
         </section>
@@ -207,6 +281,14 @@
     <!-- fin del footer-->
 
 </body>
+<!--scrip animaciones-->
+
+<script>
+    AOS.init();
+</script>
+
+<!-- fin scrip animaciones-->
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 </script>
