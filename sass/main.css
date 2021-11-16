@@ -158,6 +158,7 @@
 }
 
 .colorfooter {
+  width: 100%;
   background-color: #D8BA88;
   margin-bottom: 0em !important;
   padding: 0rem 15rem;
@@ -285,6 +286,18 @@
 
 .precio {
   color: white;
+  text-align: center;
+}
+
+.containter-accordion {
+  height: 60vh;
+}
+
+.bkg-accordion {
+  background-color: #e1f8fc;
+}
+
+.txt-faq {
   text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
