@@ -265,12 +265,26 @@
   }
 }
 
+.containerprd {
+  padding: 0 1.5rem;
+}
+
 .card-img-filter {
   height: 450px;
-  -webkit-filter: brightness(0.5);
-          filter: brightness(0.5);
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10%;
+}
+
+.descripcionprd {
+  color: white;
+  text-align: center;
+}
+
+.precio {
+  color: white;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

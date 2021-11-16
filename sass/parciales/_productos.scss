@@ -1,6 +1,20 @@
+.containerprd{
+    padding: 0 1.5rem;
+    
+}
 .card-img-filter{
     height: 450px;
-    filter: brightness(0.5);
+    filter: brightness(0.9);
      object-fit: cover;
     border-radius: 10%;
+}
+
+.descripcionprd{
+    color: $blanco;
+    text-align: center;
+}
+
+.precio{
+    color: $blanco;
+    text-align: center;
 }
