@@ -9,7 +9,7 @@
     color: $negro;
     justify-content: space-between;
     list-style: none;
-    
+
     &nav__color {
         background-color: $marron;
         display: flex;
@@ -25,11 +25,36 @@
     }
 }
 
-hr {
-    box-shadow: 1px 15px 14px 1px rgba(13,12,12,0.78);
--webkit-box-shadow: 1px 15px 14px 1px rgba(13,12,12,0.78);
--moz-box-shadow: 1px 15px 14px 1px rgba(13,12,12,0.78);
-    height: 0.5rem !important;
-    opacity: 1 !important;
-    margin: 0 !important
+.active {
+    text-decoration: underline wavy var(--color-blanco);
+    text-underline-offset: 9px;
+}
+
+.scale-up-center:hover {
+    -webkit-animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
 }

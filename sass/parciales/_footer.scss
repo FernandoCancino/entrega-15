@@ -1,6 +1,10 @@
 .colorfooter{
     background-color: $marron;
+    margin-bottom: 0em !important;
+    padding: 0rem 15rem;
     &__texto{
         color: $negro;
+        margin-bottom: 0em !important;
+
     }
 }

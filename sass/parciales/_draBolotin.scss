@@ -1,18 +1,22 @@
-.img-quienes {
-    display: black;
-    padding: 5rem;
-    max-width: 100%;
+.fondo-dra{
+    margin-top: 2.5rem;
+    background-color: $celeste;
 }
 
-.presentacion {
-    display: flex;
-    padding: 1rem 1rem;
-    justify-content: right;
-    width: 60%;
-&__titulos {
-    margin: 1rem;
-    padding: 3rem;
-    width: 40%;
-    top: 50%;
+.img-quienes {
+    padding: 5rem;
+    max-width: 100%;   
 }
+
+.presentacion{
+    padding: 1rem;
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+.titulos {
+    flex-direction: column;
+    list-style: none;
+    font-family: 'Open Sans', arial, sans-serif;
+    line-height: 1.75;
+    margin: 18px 0 0;
 }

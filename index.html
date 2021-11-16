@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Pagina principal de la Dra. Magali Bolotin cirujana plástica UBA">
   <meta name="keywords" content="HTML, cirujano plástico, cirujía, cuidado personal">
-  <title>Inicio</title>
+  <title>Magalí bolotín</title>
   <script src="https://kit.fontawesome.com/7d4193cf05.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -45,8 +45,8 @@
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-light nav">
-      <div class="container-fluid nav__color" data-aos="zoom-in"> 
-        <a class="navbar-brand nav__img" href="#"><img src="./multimedia/logo_MB-02-02.png" alt=""></a>
+      <div class="container-fluid nav__color" data-aos="zoom-in">
+        <a class="navbar-brand nav__img scale-up-center" href="#"><img src="./multimedia/logo_MB-02-02.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -54,7 +54,7 @@
         <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
           <ul class="navbar-nav align-items-center mt4">
             <li class="nav-item">
-              <a class="nav-link active data-aos=" fade-up" aria-current="page" href="./secciones/draBolotin.html">Dra.
+              <a class="nav-link data-aos=" fade-up" aria-current="page" href="./secciones/draBolotin.html">Dra.
                 Bolotín</a>
             </li>
             <li class="nav-item">
@@ -66,9 +66,6 @@
             <li class="nav-item">
               <a class="nav-link" href="./secciones/preguntasfrecuentes.html">Preguntas Frecuentes</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -78,7 +75,7 @@
   <!-- main-->
   <main>
     <section class="containerfluid mt-4">
-      <div class="row">
+      <div class="row container-main">
         <div class="col-md-7">
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -105,14 +102,69 @@
           </div>
         </div>
         <div class="col-md-5 align-self-center divDra">
-          <h2 class="text-center divDra__h2">Dra. Magalí Bolotín</h2>
-          <p>Para los que no me conocen me presento: soy la Dra. Magali Bolotin, apasionada por la medicina estética y
+          <h2 class="text-center divDra__h2" data-aos="fade-left">Dra. Magalí Bolotín</h2>
+          <p class="descripcion">Para los que no me conocen me presento: soy la Dra. Magali Bolotin, apasionada por la
+            medicina estética y
             la
-            cirugía plástica <br> En mi consultorio voy a poder asesorarte y acompañarte, siempre pensando qué es lo
+            cirugía plástica. <br> En mi consultorio voy a poder asesorarte y acompañarte, siempre pensando qué es lo
             mejor
-            para vos y dejando de lado paradigmas de perfección <br> Creo en las pieles y cuerpos reales y en la
-            posibilidad de que cada uno se pueda sentir bien con uno mismo</p>
+            para vos y dejando de lado paradigmas de perfección. <br> Creo en las pieles y cuerpos reales y en la
+            posibilidad de que cada uno se pueda sentir bien con uno mismo.</p>
         </div>
+      </div>
+    </section>
+
+    <!--distintos tratamientos-->
+    <section class="containerfluid mt-4">
+      <div class="row">
+        <p class="col-md-12 tratamientos-index">Tratamientos faciales y corporales. Botox . Peelings . Sobrepeso .
+          Celulitis . Adiposidades localizadas.</p>
+      </div>
+    </section>
+
+    <!--contacto-->
+
+    <section>
+      <h3 class="contacto-h3">CONTACTO</h3>
+      <div class="formulario">
+        <form class="row g-3 mt-5">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="Nombre">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Apellido</label>
+            <input type="password" class="form-control" id="Apellido">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Mail</label>
+            <input type="text" class="form-control" id="mail" placeholder="tucorreoelectronico@gmail.com">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="direccion" placeholder="direccion completa">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="Ciudad">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Provincia</label>
+            <select id="inputState" class="form-select">
+              <option selected></option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">CP</label>
+            <input type="text" class="form-control" id="codigo postal">
+          </div>
+          <div class="col-12">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Confirmar</button>
+          </div>
+        </form>
       </div>
     </section>
   </main>
@@ -129,7 +181,7 @@
       <ul class="col-md-4 justify-content-end list-unstyled d-flex">
         <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
               <use xlink:href="#twitter" /></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+        <li class="ms-3"><a class="text-muted mx-3" href="#"><svg class="bi" width="24" height="24">
               <use xlink:href="#instagram" /></svg></a></li>
         <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
               <use xlink:href="#facebook" /></svg></a></li>
@@ -150,5 +202,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
 
 </html>

@@ -1,15 +1,67 @@
 .tamanoCarousel {
-    height: 85vh;
+    height: 80vh;
     object-fit: cover;
 }
 
+.container-main{
+    background-color: $celeste;
+}
 
 .divDra {
     font-family: "Roboto";
     text-decoration: $negro;
     &__h2 {
+        font-family: Open Sans, arial, sans-serif;
         text-decoration-style: solid;
         text-decoration-line: underline;    
-        color: $marron;
+        color: $negro;
+        margin-bottom: 100px;
+        font-size: 2.5rem;
     }
+}
+
+.descripcion{
+    font-size: 1.3rem;
+    font-family: Playfair Display, Georgia, serif;
+}
+
+.tratamientos-index{
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    font-family: 'Open Sans', arial, sans-serif;
+    text-transform: none;
+    color: rgb(94, 94, 94)
+}
+
+.contacto-h3{
+    font-size: 18px;
+    width: auto;
+    background-color: $celeste;
+    color: $negro;
+    min-height: 56px;
+    padding-bottom: 8px;
+    padding-top: 15px;
+    text-align: center;
+    transition: all 0.3s;
+    font-weight: 700;
+    padding-right: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.214em;
+    padding-left: 32px;   
+    }
+
+.contacto-h3:hover {
+    box-shadow: 0 10px 10px -10px rgb(88, 97, 99 / 50%);
+    
+}
+
+.formulario{
+    width: auto;
+    padding: 0rem 15rem;
+    box-shadow: $negro;
+    border: 3px $negro;
+
 }
